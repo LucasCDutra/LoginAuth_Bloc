@@ -32,6 +32,7 @@ class _LoginScreenState extends State<LoginScreen> {
         if (state is AuthLoading) {
           return const Center(child: CircularProgressIndicator());
         }
+
         return SingleChildScrollView(
           child: Center(
             child: Column(
