@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return BlocProvider(
       create: (context) => AuthBloc(),
       child: MaterialApp(
-        title: 'Login Bloc',
+        title: 'Login BloC',
         theme: ThemeData.dark().copyWith(
           scaffoldBackgroundColor: Pallete.backgroundColor,
         ),
